@@ -1,0 +1,26 @@
+{
+    "name": "yyyymm",
+    "version": "1.0.0",
+    "description": "date helper fpr yyyymm format",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lsshenrique/yyyymm.git"
+    },
+    "keywords": [
+        "date",
+        "format"
+    ],
+    "author": "lsshenrique",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lsshenrique/yyyymm/issues"
+    },
+    "homepage": "https://github.com/lsshenrique/yyyymm#readme",
+    "dependencies": {
+        "moment": "^2.29.1"
+    }
+}
