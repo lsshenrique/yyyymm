@@ -19,9 +19,16 @@ module.exports = {
         const values = [value]
         const base = moment(value, FORMAT)
 
-        for (let amount = 1; amount <= increment; amount++) {
-            const amAux = parseInt(base.add(1, 'month').format(FORMAT))
-            values.push(amAux)
+        if (increment >= 0) {
+            for (let amount = 1; amount <= increment; amount++) {
+                const amAux = parseInt(base.add(1, 'month').format(FORMAT))
+                values.push(amAux)
+            }
+        } else {
+            for (let amount = -1; amount >= increment; amount--) {
+                const amAux = parseInt(base.add(-1, 'month').format(FORMAT))
+                values.push(amAux)
+            }
         }
 
         return values

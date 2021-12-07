@@ -1,6 +1,6 @@
 {
     "name": "yyyymm",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "date helper fpr yyyymm format",
     "main": "index.js",
     "scripts": {
